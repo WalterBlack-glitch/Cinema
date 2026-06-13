@@ -13,7 +13,9 @@ Skill de Claude para **aprender** cinematografía y craft 3D desde cualquier fue
 - **Generación cloud** (`scripts/generate.py --engine higgsfield`): driver del CLI `higgsfield`.
 - **Generación local** (`scripts/generate_video_local.py`): video diffusion con LTX-Video 0.9.5 vía ComfyUI (RTX 4050 6GB ok).
 - **Análisis** (`scripts/analyze_video.py`, `contact_sheet.py`, `extract_palette.py`): ASL, paleta, contact sheets.
-- **Cine Studio** (`ui/`): app de escritorio (pywebview/WebView2) que orquesta todo.
+
+> **Cine Studio (la app de escritorio) vive aparte**, en `~/CineStudioLocal/CineStudio/` — es la GUI
+> que orquesta estos scripts y NO forma parte de esta skill. Esta carpeta es solo la skill de Claude.
 
 ## Instalación
 
@@ -25,7 +27,7 @@ cp -r cinema ~/.claude/skills/
 cp -r cinema ~/.agents/skills/
 ```
 
-Dependencias (Python global): `yt-dlp opencv-python numpy imageio-ffmpeg pywebview`.
+Dependencias (Python global): `yt-dlp opencv-python numpy imageio-ffmpeg`.
 
 ## Uso
 

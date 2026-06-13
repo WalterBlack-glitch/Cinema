@@ -165,9 +165,6 @@ available, also deliver the rendered clips and the assembled sequence.
   `--engine comfyui` (free local SDXL stills). One prompt, swappable backend (Phase 5).
 - `scripts/run_brief.py` — execute all higgsfield CLI commands in a brief .md, log to
   generation_log.md (Phase 5).
-- `scripts/studio.py` + `scripts/studio.bat` — interactive terminal UI (menu-driven) to build
-  prompts and generate from any terminal/cmd; shows live balance + per-shot cost, confirms before
-  spending. Double-click `studio.bat` on Windows.
 - `scripts/still_to_short.py` — animate a still into a short via a Ken Burns camera move
   (push-in/pull-out/pan); free offline fallback when AI video isn't available. OpenCV, no ffmpeg.
 - `scripts/save_result.py` — download Higgsfield result URLs into a folder (default ~/Videos/Higgsfield).
